@@ -1,0 +1,98 @@
+export const airmen = [
+  {
+    id: 1,
+    name: 'AB ADKINS',
+    role: 'Avionics Technician',
+    image: '/assets/airmen/john.jpg',
+  },
+  {
+    id: 2,
+    name: 'A1C ADU-NKUAH',
+    role: 'Security Forces',
+    image: '/assets/airmen/jane.jpg',
+  },
+  {
+    id: 3,
+    name: 'A1C AGBARO',
+    role: 'Aircraft Maintenance',
+    image: '/assets/airmen/mike.jpg',
+  },
+  {
+    id: 4,
+    name: 'SSgt BROWN ',
+    role: 'Logistics',
+    image: '/assets/airmen/sarah.jpg',
+  },
+  {
+    id: 5,
+    name: ' A1C FREERKSEN ',
+    role: 'Medical Services',
+    image: '/assets/airmen/leo.jpg',
+  },
+  {
+    id: 6,
+    name: 'A1C LAYNE ',
+    role: 'Cyber Operations',
+    image: '/assets/airmen/lisa.jpg',
+  },
+  {
+    id: 7,
+    name: 'A1C LOPEZ-ALVAREZ ',
+    role: 'Intelligence',
+    image: '/assets/airmen/kevin.jpg',
+  },
+  {
+    id: 8,
+    name: ' AB LOPEZ ',
+    role: 'Air Traffic Control',
+    image: '/assets/airmen/rachel.jpg',
+  },
+  {
+    id: 9,
+    name: ' SrA MEJIA ',
+    role: 'Fuel Specialist',
+    image: '/assets/airmen/tommy.jpg',
+  },
+  {
+    id: 10,
+    name: 'A1C OPUNI',
+    role: 'Radar Technician',
+    image: '/assets/airmen/dana.jpg',
+  },
+  {
+    id: 11,
+    name: 'AB PAYLOR ',
+    role: 'Radar Technician',
+    image: '/assets/airmen/dana.jpg',
+  },
+  {
+    id: 12,
+    name: 'A1C PINTO-CAPOTE',
+    role: 'Radar Technician',
+    image: '/assets/airmen/dana.jpg',
+  },
+  {
+    id: 13,
+    name: ' AB SAVELLROGERS',
+    role: 'Radar Technician',
+    image: '/assets/airmen/dana.jpg',
+  },
+  {
+    id: 14,
+    name: ' AB TORBERT ',
+    role: 'Radar Technician',
+    image: '/assets/airmen/dana.jpg',
+  },
+  {
+    id: 15,
+    name: ' AMN YENER',
+    role: 'Radar Technician',
+    image: '/assets/airmen/dana.jpg',
+  },
+  {
+    id: 16,
+    name: ' AB ZOZIMO-JAMACARU',
+    role: 'Radar Technician',
+    image: '/assets/airmen/dana.jpg',
+  },
+];
