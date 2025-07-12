@@ -57,7 +57,7 @@ export const airmen = [
     id: 10,
     name: 'A1C OPUNI',
     role: 'Radar Technician',
-    image: 'public/airmen/AIC OPUNI.jpeg',
+    image: '/airmen/AIC OPUNI.jpeg',
   },
   {
     id: 11,
