@@ -14,7 +14,6 @@ const AirmanCard = ({ airman }) => {
       <h3 className="text-base sm:text-lg font-semibold text-[#00308F]">
         {airman.name}
       </h3>
-      <p className="text-sm text-gray-600">{airman.role}</p>
     </div>
   );
 };
