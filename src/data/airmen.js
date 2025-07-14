@@ -15,7 +15,7 @@ export const airmen = [
     id: 3,
     name: 'A1C AGBARO',
     role: 'Aircraft Maintenance',
-    image: '',
+    image: '/airmen/abgaro.jpeg',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const airmen = [
     id: 6,
     name: 'A1C LAYNE ',
     role: 'Cyber Operations',
-    image: '',
+    image: '/airmen/layne.PNG',
   },
   {
     id: 7,
