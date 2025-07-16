@@ -27,7 +27,7 @@ export const airmen = [
     id: 5,
     name: ' A1C FREERKSEN ',
     role: 'Medical Services',
-    image: '',
+    image: '/airmen/frik.jpeg',
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ export const airmen = [
     id: 12,
     name: 'A1C PINTO-CAPOTE',
     role: 'Radar Technician',
-    image: '',
+    image: '/airmen/pinto.jpeg',
   },
   {
     id: 13,
@@ -81,18 +81,18 @@ export const airmen = [
     id: 14,
     name: ' AB TORBERT ',
     role: 'Radar Technician',
-    image: '',
+    image: '/airmen/torbet.jpeg',
   },
   {
     id: 15,
     name: ' AMN YENER',
     role: 'Radar Technician',
-    image: '',
+    image: '/airmen/yener.jpeg',
   },
   {
     id: 16,
     name: ' AB ZOZIMO-JAMACARU',
     role: 'Radar Technician',
-    image: '',
+    image: '/airmen/zozimo.jpeg',
   },
 ];

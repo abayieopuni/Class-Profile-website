@@ -18,7 +18,7 @@ const Reflections = () => {
 
   const reflectionsRef = collection(db, 'reflections');
 
-  // ⬇️ Load reflections from Firebase
+  // ✅ Load reflections from Firebase
   const loadReflections = async () => {
     const snapshot = await getDocs(reflectionsRef);
     const data = snapshot.docs.map((doc) => ({
@@ -32,7 +32,7 @@ const Reflections = () => {
     loadReflections();
   }, []);
 
-  // ⬇️ Submit reflection to Firebase
+  // ✅ Submit a new reflection
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!name || !message) return;
@@ -48,20 +48,32 @@ const Reflections = () => {
     loadReflections();
   };
 
-  // ⬇️ Delete reflection
+  // ✅ Delete a reflection
   const handleDelete = async (id) => {
-    await deleteDoc(doc(db, 'reflections', id));
-    loadReflections();
+    try {
+      await deleteDoc(doc(db, 'reflections', id));
+      loadReflections();
+    } catch (error) {
+      console.error('Failed to delete reflection:', error);
+      alert(
+        'Error deleting. Check your Firebase permissions or console for details.',
+      );
+    }
   };
 
-  // ⬇️ Save edited reflection
+  // ✅ Save an edited reflection
   const handleSaveEdit = async (id) => {
-    await updateDoc(doc(db, 'reflections', id), {
-      message: editedMessage,
-    });
-    setEditingId(null);
-    setEditedMessage('');
-    loadReflections();
+    try {
+      await updateDoc(doc(db, 'reflections', id), {
+        message: editedMessage,
+      });
+      setEditingId(null);
+      setEditedMessage('');
+      loadReflections();
+    } catch (error) {
+      console.error('Failed to update reflection:', error);
+      alert('Could not save edit. See console for details.');
+    }
   };
 
   return (
@@ -71,7 +83,7 @@ const Reflections = () => {
     >
       <h2 className="text-3xl font-bold mb-6">Reflections & Messages</h2>
 
-      {/* Form */}
+      {/* ✅ Form */}
       <form
         onSubmit={handleSubmit}
         className="max-w-2xl mx-auto mb-10 space-y-4 text-left"
@@ -97,7 +109,7 @@ const Reflections = () => {
         </button>
       </form>
 
-      {/* Display reflections */}
+      {/* ✅ Display reflections */}
       <div className="max-w-3xl mx-auto space-y-6">
         {reflections.length === 0 ? (
           <p className="text-gray-500 italic">No reflections yet.</p>
