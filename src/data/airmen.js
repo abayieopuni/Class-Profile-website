@@ -21,7 +21,7 @@ export const airmen = [
     id: 4,
     name: 'SSgt BROWN ',
     role: 'Logistics',
-    image: '',
+    image: '/airmen/brown.jpg',
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ export const airmen = [
     id: 9,
     name: ' SrA MEJIA ',
     role: 'Fuel Specialist',
-    image: 'g',
+    image: '/airmen/sandy.jpeg',
   },
   {
     id: 10,
