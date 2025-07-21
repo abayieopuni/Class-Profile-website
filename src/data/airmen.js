@@ -39,7 +39,7 @@ export const airmen = [
     id: 7,
     name: 'A1C LOPEZ-ALVAREZ ',
     role: 'Intelligence',
-    image: '',
+    image: '/airmen/alvarez.jpeg',
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ export const airmen = [
     id: 11,
     name: 'AB PAYLOR ',
     role: 'Radar Technician',
-    image: '',
+    image: '/airmen/paylor.jpeg',
   },
   {
     id: 12,
