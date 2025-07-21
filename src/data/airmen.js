@@ -75,7 +75,7 @@ export const airmen = [
     id: 13,
     name: ' AB SAVELLROGERS',
     role: 'Radar Technician',
-    image: '',
+    image: '/airmen/savel.jpeg',
   },
   {
     id: 14,
